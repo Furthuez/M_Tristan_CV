@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #2f3a4a;
+    color: white;
+    padding: 20px;
+}
+
+.profile-pic-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 100%;
+    max-width: 150px; /* Ukuran maksimal kotak foto */
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.personal-info h2,
+.hobbies h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.personal-info p,
+.hobbies ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.hobbies ul {
+    list-style-type: none;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+.main-content h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.main-content h2 {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h3 {
+    font-size: 18px;
+    color: #2f3a4a;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2f3a4a;
+    padding-bottom: 5px;
+}
+
+section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #2f3a4a;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+}
